@@ -1,5 +1,14 @@
 # @backstage/filter-predicates
 
+## 0.1.5
+
+### Patch Changes
+
+- 736d84e: Use locale-insensitive Unicode casing for consistent string handling across environments.
+- 6dcb08a: Reduced the frontend bundle size by letting bundlers tree-shake zod, which previously pulled every zod locale into the bundle. Takes effect on zod 4.5.0 and newer.
+- Updated dependencies
+  - @backstage/config@1.3.9
+
 ## 0.1.5-next.1
 
 ### Patch Changes
